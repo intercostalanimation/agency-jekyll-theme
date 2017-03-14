@@ -176,7 +176,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -267,9 +269,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #E6E6E6;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-color: #3E3E3E;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -300,6 +302,26 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .intro-text .intro-subtitle {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 40px;
+}
+
+header .intro-text .intro-next-link {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    color: #10826B;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -315,7 +337,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 5px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
