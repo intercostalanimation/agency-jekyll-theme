@@ -275,7 +275,7 @@ header {
     text-align: center;
     color: #E6E6E6;
     background-attachment: scroll;
-    background-color: #3E3E3E;
+    background-color: #{{ site.data.template.color.background }};
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -687,8 +687,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-color: #{{ site.data.template.color.background }};
     background-position: center;
     background-repeat: no-repeat;
 }
