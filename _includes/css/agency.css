@@ -74,7 +74,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -84,7 +84,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -115,7 +115,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.font-primary }};
 }
 
 .btn-xl {
@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -136,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -167,7 +167,7 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.font-primary }};
 }
 
 .navbar-default {
@@ -179,7 +179,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.font-primary }};
 }
 
 .navbar-brand {
@@ -203,7 +203,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.font-primary }};
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -216,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -230,13 +230,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #E6E6E6;
+    color: #{{ site.data.template.color.font-primary }};
     background-attachment: scroll;
     background-color: #{{ site.data.template.color.background }};
     background-position: center center;
@@ -321,7 +321,7 @@ header .intro-text .intro-next-link {
     margin-bottom: 12px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    color: #10826B;
+    color: #{{ site.data.template.color.secondary }};
     font-size: 12px;
     line-height: 30px;
     text-decoration: none;
@@ -420,7 +420,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -437,7 +437,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.font-primary }};
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -527,7 +527,7 @@ section h3.section-subheading {
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -669,7 +669,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #{{ site.data.template.color.font-primary }};
 }
 
 .team-member h4 {
@@ -693,24 +693,24 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
 }
 
 section#contact .form-group {
     margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
+    font-family: {{ site.data.template.font.primary }};
 }
 
 section#contact .form-group input.form-control {
     height: auto;
+    border-radius: 0px;
+    background-color: #{{ site.data.template.color.background-sec }}; 
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    border-radius: 0px;
+    background-color: #{{ site.data.template.color.background-sec }}; 
 }
 
 section#contact .form-control:focus {
@@ -782,7 +782,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.font-primary }};
     background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
