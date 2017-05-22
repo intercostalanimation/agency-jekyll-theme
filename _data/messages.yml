@@ -4,6 +4,8 @@ locales:
     header_portfolio: "Portfolio"
     header_team: "Team"
     header_contact: "Contact"
+    header_en_lang: "EN"
+    header_es_lang: "SP"
 
     contact_title: "Contact Us"
     contact_name: "name *"
@@ -20,6 +22,8 @@ locales:
     header_portfolio: "Portfolio"
     header_team: "Equipo"
     header_contact: "Contacto"
+    header_en_lang: "ING"
+    header_es_lang: "ESP"
     
     contact_title: "Contacto"
     contact_name: "nombre *"
