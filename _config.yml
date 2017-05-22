@@ -1,6 +1,8 @@
 url: https://y7kim.github.io
 baseurl: /intercostal/
 
+full_url: http://localhost:4000/intercostal/
+
 # Site settings
 title: Intercostal
 email: your-email@domain.com

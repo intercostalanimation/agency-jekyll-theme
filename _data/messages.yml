@@ -1,0 +1,32 @@
+locales:
+  en:
+    header_enter: "enter"
+    header_portfolio: "Portfolio"
+    header_team: "Team"
+    header_contact: "Contact"
+
+    contact_title: "Contact Us"
+    contact_name: "name *"
+    contact_name_req_msg: "Please enter your name."
+    contact_email: "email *"
+    contact_email_req_msg: "Please enter your email address."
+    contact_phone: "phone"
+    contact_message: "message *"
+    contact_message_req_msg: "Please enter a message."
+    contact_send: "Send"
+  
+  es:
+    header_enter: "entrar"
+    header_portfolio: "Portfolio"
+    header_team: "Equipo"
+    header_contact: "Contacto"
+    
+    contact_title: "Contacto"
+    contact_name: "nombre *"
+    contact_name_req_msg: "Ingrese su nombre."
+    contact_email: "email *"
+    contact_email_req_msg: "Ingrese su email."
+    contact_phone: "teléfono"
+    contact_message: "mensaje *"
+    contact_message_req_msg: "Ingrese un mensaje."
+    contact_send: "Enviar"
