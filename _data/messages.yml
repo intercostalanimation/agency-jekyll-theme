@@ -16,6 +16,9 @@ locales:
     contact_message: "message *"
     contact_message_req_msg: "Please enter a message."
     contact_send: "Send"
+
+    team_desc_1: "this is a description that explains the work Santiago can do."
+    team_desc_2: "this is a description that explains the work Titan can do. "
   
   es:
     header_enter: "entrar"
@@ -34,3 +37,6 @@ locales:
     contact_message: "mensaje *"
     contact_message_req_msg: "Ingrese un mensaje."
     contact_send: "Enviar"
+
+    team_desc_1: "breve descripción de las habilidades de Santiago."
+    team_desc_2: "breve descripción de las habilidades de Tits."
