@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #{{ site.data.template.color.background }};
 }
 
 .bg-darkest-gray {
@@ -665,6 +665,8 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    font-family: {{ site.data.template.font.primary }};
+    color: #bbb;
 }
 
 .team-member img {
@@ -678,8 +680,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.team-member hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color: #{{ site.data.template.color.primary }};
+}
+
 .team-member p {
     margin-top: 0;
+    text-align: justify;
 }
 
 aside.clients img {
