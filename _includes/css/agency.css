@@ -46,6 +46,16 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+#logo-text-top {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+#logo-text-top:hover,
+#logo-text-top:focus,
+#logo-text-top:active {
+    color: #{{ site.data.template.color.font-primary }};
+}
+
 h1,
 h2,
 h3,
@@ -273,15 +283,24 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
+    height: 100%;
     color: #{{ site.data.template.color.font-primary }};
-    background-attachment: scroll;
+    /*background-attachment: scroll;
     background-color: #{{ site.data.template.color.background }};
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+}
+
+#header-section {
+    background-image: url('{{ site.baseurl }}/img/portfolio/intro-background.jpeg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .intro-text {
@@ -906,4 +925,17 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.intro-logo {
+    max-width: 25%;
+}
+
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
 }
