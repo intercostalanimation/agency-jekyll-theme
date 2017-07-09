@@ -1,6 +1,8 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+      <div class="modal-content">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -13,7 +15,7 @@
           <div class="carousel-inner" role="listbox">
             {% for img in post.images %}
               <div class="item {% if forloop.first == true %} active {% endif %}">
-                <img src="{{site.full_url}}img/portfolio/{{ img.url }}" class="img-responsive img-centered">
+                <img src="{{site.full_url}}img/portfolio/{{ img.url }}" class="img-responsive img-centered full-width">
               </div>
             {% endfor %}
           </div>
@@ -27,6 +29,8 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
+        </div>
+        </div>
         </div>
     </div>
 {% endfor %}

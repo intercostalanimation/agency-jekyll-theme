@@ -1,10 +1,9 @@
 ---
 title: Concept & Storyboard
-subtitle: 
+subtitle: Graphic Design
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
 thumbnail: concept-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
