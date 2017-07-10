@@ -13,4 +13,5 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
 
 images:
   - url: character-1.jpg
+  - url: character-2.jpg
 ---
