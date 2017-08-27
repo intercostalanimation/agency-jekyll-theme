@@ -63,6 +63,10 @@ $(function() {
     });
 });
 
+$('#submitContactForm').click(function(event) { 
+    event.preventDefault();
+    $("#contactForm").submit(); 
+});
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {

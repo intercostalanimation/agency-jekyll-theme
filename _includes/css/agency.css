@@ -336,7 +336,7 @@ header .intro-text .intro-subtitle {
     text-indent: 2.7em;
 }
 
-header .intro-text .intro-next-link {
+.special-link {
     margin-bottom: 12px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -1047,9 +1047,6 @@ body {
   -o-transform: scale(1);
   transform: scale(1);
 }
- #cd-vertical-nav a:hover .cd-label {
-  opacity: 1;
-}
  #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #{{ site.data.template.color.primary }};
 }
@@ -1057,8 +1054,8 @@ body {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
   top: 8px;
-  height: 12px;
-  width: 12px;
+  height: 13px;
+  width: 13px;
   border-radius: 50%;
   background-color: white;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
@@ -1102,9 +1099,27 @@ body {
 #cd-vertical-nav ul:before {
     content: "";
     position: absolute;
-    height: 164px;
+    height: 172px;
     width: 5px;
     margin-left: 6px;
     border-left: 1px solid white;
     margin-top: 17px;
+}
+
+.contact-me-submit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #{{ site.data.template.color.secondary }};
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.contact-me-submit-button:hover {
+    text-decoration: underline;
 }
