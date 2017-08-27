@@ -9,14 +9,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="logo-text-top" class="navbar-brand page-scroll" href="#page-top">Norman</a>
+                <a id="logo-text-top" class="navbar-brand page-scroll" href="#header-top">Norman</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="#header-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">{{ t.header_portfolio }}</a>
@@ -41,7 +41,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header id="header-top" class="cd-section">
         <div id="header-section">
             <div class="intro-text">
                 <img src="{{site.full_url}}img/logos/logo-500x500.png" class="img-responsive center-block intro-logo" alt="{{ post.alt }}"> 
@@ -52,9 +52,9 @@
             </div>
         </div>
     </header>
+
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-
