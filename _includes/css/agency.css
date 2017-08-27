@@ -1018,6 +1018,7 @@ body {
 }
  #cd-vertical-nav li {
   text-align: right;
+  margin-bottom: 35px;
 }
  #cd-vertical-nav a {
   display: inline-block;
@@ -1090,4 +1091,11 @@ body {
 
 #cd-vertical-nav ul {
     list-style: none;
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  #cd-vertical-nav {
+    display: none !important;
+  }
 }
