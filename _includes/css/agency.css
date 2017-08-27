@@ -1027,7 +1027,6 @@ body {
   backface-visibility: hidden;
 }
  #cd-vertical-nav a:after {
-
   content: "";
   display: table;
   clear: both;
@@ -1098,4 +1097,14 @@ body {
   #cd-vertical-nav {
     display: none !important;
   }
+}
+
+#cd-vertical-nav ul:before {
+    content: "";
+    position: absolute;
+    height: 164px;
+    width: 5px;
+    margin-left: 6px;
+    border-left: 1px solid white;
+    margin-top: 17px;
 }
