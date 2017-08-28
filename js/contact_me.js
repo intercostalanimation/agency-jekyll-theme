@@ -29,11 +29,13 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
-                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success').html("<div class='alert alert-success msg-sent'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>")
+                        .append((window.location.pathname.includes("/en")) ? "Your message has been sent" : "Mensage enviado")
+                        .append("</strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -42,7 +44,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
+                    $('#success').html("<div class='alert alert-danger msg-sent'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");

@@ -1123,3 +1123,10 @@ body {
 .contact-me-submit-button:hover {
     text-decoration: underline;
 }
+
+
+.msg-sent {
+    width: 40%;
+    margin-left: 30%;
+    font-family: {{ site.data.template.font.primary }};
+}
