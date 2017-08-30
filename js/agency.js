@@ -4,6 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// Progress Bar
+$(document).ajaxStart(function() {
+    NProgress.start();
+});
+$(document).ajaxStop(function() {
+    NProgress.done();
+    NProgress.remove();
+});
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
