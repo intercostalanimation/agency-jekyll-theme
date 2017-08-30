@@ -699,7 +699,7 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.team-member hr {
+.border-line {
     display: block;
     height: 1px;
     border: 0;
