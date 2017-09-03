@@ -733,6 +733,10 @@ section#contact .form-group {
     font-family: {{ site.data.template.font.primary }};
 }
 
+.form-control {
+    border-color: #{{ site.data.template.color.background-sec }};
+}
+
 section#contact .form-group input.form-control {
     height: auto;
     border-radius: 0px;
@@ -749,6 +753,8 @@ section#contact .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
 }
+
+
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
