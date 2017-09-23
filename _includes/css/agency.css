@@ -182,7 +182,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.background }};
+    padding: 25px 0;
 }
 
 .navbar-default .navbar-brand {
@@ -252,12 +253,12 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        padding: 50px 0;
     }
 
     .navbar-default .navbar-brand {
@@ -272,12 +273,13 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 40px 0;
         background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        top: 15px;
     }
 }
 
@@ -403,6 +405,10 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#portfolio {
+    padding-top: 200px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -477,7 +483,7 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0 0 0px;
     }
 }
 
@@ -1150,5 +1156,38 @@ body {
     .center-column {
         padding-left: 0px;
         padding-right: 0px;
+    }
+}
+
+.navbar-brand {
+  left:calc(50% - 45px);
+  position: absolute;
+  padding:0;
+  top: 25px;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+}
+
+
+.grid-item { width: 100%; }
+.grid-item--width2 { width: 100%; }
+
+@media screen and (min-width: 768px) {
+    .grid-item {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .grid-item--width2 {
+        width: 20%;
     }
 }

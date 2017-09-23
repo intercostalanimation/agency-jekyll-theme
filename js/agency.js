@@ -80,4 +80,17 @@ jQuery(document).ready(function($){
             600
         );
     }
+
+    // init Isotope
+    var grid = $('.grid').isotope({
+        // options
+        itemSelector: '.grid-item',
+        layoutMode: 'masonry'   
+    });
+
+    // layout Isotope after each image loads
+    grid.imagesLoaded().progress( function() {
+        grid.isotope('layout');
+    });
+
 });
