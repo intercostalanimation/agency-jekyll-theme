@@ -1,0 +1,16 @@
+---
+title: Storyboard  
+subtitle: 
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal8
+slider-enable: true
+modal-id: 8
+thumbnail: storyboard/storyboard-thumb.jpg
+alt: image-alt
+
+images:
+  - url: storyboard/storyboard-1.jpg
+  - url: storyboard/storyboard-2.jpg
+
+---

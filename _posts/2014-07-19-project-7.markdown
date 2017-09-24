@@ -1,0 +1,17 @@
+---
+title: Character Design  
+subtitle: 
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal7
+slider-enable: true
+modal-id: 7
+thumbnail: disenio-personajes/character-thumb.jpg
+alt: image-alt
+
+images:
+  - url: disenio-personajes/character-1.jpg
+  - url: disenio-personajes/character-2.jpg
+  - url: disenio-personajes/character-3.jpg
+
+---

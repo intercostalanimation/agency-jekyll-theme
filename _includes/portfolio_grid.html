@@ -5,7 +5,9 @@
 
       {% for post in site.posts reversed %}
           <div class="{{ post.classes }}">
-                <a href="#{{ post.slider-id }}" class="portfolio-link" data-toggle="modal">
+                 
+                <a href="#{% if post.slider-enable == true %}{{ post.slider-id }}{% endif %}" class="portfolio-link" data-toggle="modal"> 
+                
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <h4>{{ post.title }}</h4>
@@ -13,7 +15,10 @@
                         </div>
                     </div>
                     <img src="{{site.full_url}}img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                </a>
+                
+                {% if post.slider-enable == true %} 
+                </a> 
+                {% endif %}
           </div>
       {% endfor %}
 

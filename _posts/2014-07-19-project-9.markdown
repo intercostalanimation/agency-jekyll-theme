@@ -1,0 +1,21 @@
+---
+title: Concept  
+subtitle: 
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal9
+slider-enable: true
+modal-id: 9
+thumbnail: concept/concept-thumb.jpg
+alt: image-alt
+
+images:
+  - url: concept/concept-1.jpg
+  - url: concept/concept-2.jpg
+  - url: willie/willie-4.jpg
+  - url: willie/willie-5.jpg
+  - url: willie/willie-6.jpg
+  - url: willie/willie-7.jpg
+  - url: willie/willie-8.jpg
+
+---

@@ -1,0 +1,18 @@
+---
+title: Ilustrations  
+subtitle: Diego Gonzalez
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal6
+slider-enable: true
+modal-id: 6
+thumbnail: ilustration/diego-thumb.jpg
+alt: image-alt
+
+images:
+  - url: ilustration/diego-1.jpg
+  - url: ilustration/diego-2.jpg
+  - url: ilustration/diego-3.jpg
+  - url: ilustration/diego-4.jpg
+
+---

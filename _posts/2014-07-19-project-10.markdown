@@ -1,0 +1,12 @@
+---
+title:
+subtitle: 
+layout: default
+classes: grid-item portfolio-item
+slider-id: portfolioModal10
+slider-enable: false
+modal-id: 10
+thumbnail: thumbs/thumb-1.jpg
+alt: image-alt
+
+---
