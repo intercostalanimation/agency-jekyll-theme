@@ -1,21 +1,17 @@
 ---
-title: Willie
-subtitle: Shortfilm
+title: Shortfilm 
+subtitle: Willie & the Foxtrot 01
 layout: default
+classes: grid-item grid-item--width2 portfolio-item
+slider-id: portfolioModal1
+slider-enable: true
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: willie-thumbnail.jpg
+thumbnail: willie/shortfilm-thumb.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 images:
-  - url: willie-1.jpg
-  - url: willie-2.jpg
-  - url: willie-3.jpg
-  - url: willie-4.jpg
-  - url: willie-5.jpg
+  
+videos:
+  - url: https://player.vimeo.com/video/231622954?title=0&byline=0&portrait=0
+  - url: https://player.vimeo.com/video/233992819?title=0&byline=0&portrait=0
 ---

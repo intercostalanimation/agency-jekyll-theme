@@ -274,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 40px 0;
-        background-color: #222;
+        background-color: #{{ site.data.template.color.background }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -453,6 +453,13 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
+    color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h5 {
+    text-transform: initial;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #{{ site.data.template.color.background }};
 }
 
 #portfolio .portfolio-item .portfolio-caption {
@@ -694,7 +701,6 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #{{ site.data.template.color.font-primary }};
 }
 
 .team-member h4 {
@@ -716,6 +722,12 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
     text-align: justify;
+}
+
+@media screen and (max-width: 768px) { 
+  .team-member img {
+    width: 50%;
+  }
 }
 
 aside.clients img {
@@ -998,14 +1010,8 @@ body {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+  width: 80%;
 }
-
-@media (min-width: 768px) {
-  .modal-dialog {
-    width: 80%;
-  }    
-}
-
 
 ##################
 
@@ -1158,7 +1164,7 @@ body {
 }
 
 .navbar-brand {
-  left:calc(50% - 45px);
+  left:calc(50% - 26px);
   position: absolute;
   padding:0;
   top: 25px;
@@ -1171,6 +1177,9 @@ body {
 @media screen and (min-width: 768px) {
     .navbar-brand img {
         width: 120px;
+    }
+    .navbar-brand {
+        left:calc(50% - 45px);
     }
 }
 

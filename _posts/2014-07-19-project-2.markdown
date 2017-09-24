@@ -1,0 +1,24 @@
+---
+title: Concept 
+subtitle: Willie & the Foxtrot 01
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal2
+slider-enable: true
+modal-id: 2
+thumbnail: willie/concept-willie-thumb.jpg
+alt: image-alt
+
+images:
+  - url: willie/willie-2.jpg
+  - url: willie/willie-3.jpg
+  - url: willie/willie-4.jpg
+  - url: willie/willie-5.jpg
+  - url: willie/willie-6.jpg
+  - url: willie/willie-7.jpg
+  - url: willie/willie-8.jpg
+  - url: willie/willie-9.jpg
+  - url: willie/willie-10.jpg
+  - url: willie/willie-11.jpg
+
+---
