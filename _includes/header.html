@@ -1,6 +1,6 @@
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -28,30 +28,24 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#portfolio">{{ t.header_portfolio }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">{{ t.header_team }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">{{ t.header_contact }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="{{site.full_url}}en">{{ t.header_en_lang }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="{{site.full_url}}">{{ t.header_es_lang }}</a>
-                    </li>
+                    {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                    {% endfor %}
+
+                    {% if page.locale == "en" %}
+                        <li>
+                            <a class="page-scroll language-chooser" href="{{site.full_url}}es">{{ t.header_es_lang }}</a>
+                        </li>
+                    {% endif %}
+                    {% if page.locale == "es" %}
+                        <li>
+                            <a class="page-scroll language-chooser" href="{{site.full_url}}">{{ t.header_en_lang }}</a>
+                        </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->

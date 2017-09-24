@@ -1,0 +1,18 @@
+---
+title: Musicians Projects  
+subtitle: Jaime Roos
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal3
+slider-enable: true
+modal-id: 3
+thumbnail: musicos/jaime-roos/jaime-thumb.jpg
+alt: image-alt
+
+images:
+  - url: musicos/jaime-roos/jaime-4.jpg
+  - url: musicos/jaime-roos/jaime-2.jpg
+  - url: musicos/jaime-roos/jaime-3.jpg
+  - url: musicos/jaime-roos/jaime-1.jpg
+
+---

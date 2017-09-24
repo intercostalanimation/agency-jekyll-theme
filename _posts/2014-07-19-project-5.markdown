@@ -1,0 +1,16 @@
+---
+title: Musicians Projects  
+subtitle: Rada
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal5
+slider-enable: true
+modal-id: 5
+thumbnail: musicos/rada/rada-thumb.jpg
+alt: image-alt
+
+images:
+  - url: musicos/rada/rada-1.jpg
+  - url: musicos/rada/rada-2.jpg
+
+---

@@ -1,0 +1,17 @@
+---
+title: Musicians Projects  
+subtitle: Pedro Dalton
+layout: default
+classes: grid-item  portfolio-item
+slider-id: portfolioModal4
+slider-enable: true
+modal-id: 4
+thumbnail: musicos/pedro/pedro-thumb.jpg
+alt: image-alt
+
+images:
+  - url: musicos/pedro/pedro-3.jpg
+  - url: musicos/pedro/pedro-2.jpg
+  - url: musicos/pedro/pedro-1.jpg
+
+---
