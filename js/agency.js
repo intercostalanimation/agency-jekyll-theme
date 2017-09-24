@@ -85,7 +85,13 @@ jQuery(document).ready(function($){
     var grid = $('.grid').isotope({
         // options
         itemSelector: '.grid-item',
-        layoutMode: 'masonry'   
+        percentPosition: true,
+        layoutMode: 'masonry',
+        masonry: {
+            // use element for option
+            columnWidth: '.grid-sizer',
+            gutter: 0,
+        }
     });
 
     // layout Isotope after each image loads

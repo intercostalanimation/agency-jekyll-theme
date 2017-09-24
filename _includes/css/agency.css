@@ -417,8 +417,6 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    margin: 0 auto;
-    max-width: 400px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -1177,10 +1175,14 @@ body {
 }
 
 
-.grid-item { width: 100%; }
+.grid-item { 
+    width: 100%; 
+    margin-bottom: 0px;
+}
 .grid-item--width2 { width: 100%; }
 
 @media screen and (min-width: 768px) {
+    .grid-sizer,
     .grid-item {
         width: 20%;
     }
@@ -1188,6 +1190,6 @@ body {
 
 @media screen and (min-width: 768px) {
     .grid-item--width2 {
-        width: 20%;
+        width: 40%;
     }
 }
