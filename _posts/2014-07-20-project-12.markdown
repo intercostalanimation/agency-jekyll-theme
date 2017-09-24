@@ -1,0 +1,13 @@
+---
+title: Detail
+subtitle: Willie & the Foxtrot 01 
+layout: default
+classes: grid-item portfolio-item
+slider-id: portfolioModal12
+slider-enable: false
+modal-id: 12
+thumbnail: thumbs/thumb-3.jpg
+alt: image-alt
+
+---
+

@@ -17,8 +17,8 @@ locales:
     contact_message_req_msg: "Please enter a message."
     contact_send: "Send"
 
-    team_desc_1: "This is a description that explains the work Santiago can do.this is a description that explains the work Santiago can do.this is a description that explains the work Santiago can do.this is a description that explains the work Santiago can do."
-    team_desc_2: "This is a description that explains the work Titan can do. this is a description that explains the work Titan can do. this is a description that explains the work Titan can do. this is a description that explains the work Titan can do. this is a description that explains the work Titan can do."
+    team_desc_1: "Co-Founder. Director, Animator & Character Design."
+    team_desc_2: "Co-Founder. Director, Modeling & Look Development."
   
   es:
     header_enter: "entrar"
@@ -38,5 +38,5 @@ locales:
     contact_message_req_msg: "Ingrese un mensaje."
     contact_send: "Enviar"
 
-    team_desc_1: "Breve descripción de las habilidades de Santiago lalalalala. breve descripción de las habilidades de Santiago. breve descripción de las habilidades de Santiago. breve descripción de las habilidades de Santiago lalalalala. breve descripción de las habilidades de Santiago."
-    team_desc_2: "Breve descripción de las habilidades de Tits blablabla bla. breve descripción de las habilidades de Tits. breve descripción de las habilidades de Tits. breve descripción de las habilidades de Tits. "
+    team_desc_1: "Co-Founder. Director, Animator & Character Design."
+    team_desc_2: "Co-Founder. Director, Modeling & Look Development."

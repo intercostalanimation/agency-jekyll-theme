@@ -491,9 +491,10 @@ section h3.section-subheading {
     }
 }
 
-.page-scroll.language-chooser {
+#language-chooser {
     padding-left: 35px;
     padding-right: 35px;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 .team-member {

@@ -1,6 +1,6 @@
 ---
-title:
-subtitle: 
+title: Detail
+subtitle: Pedro Dalton 
 layout: default
 classes: grid-item portfolio-item
 slider-id: portfolioModal10
@@ -10,3 +10,4 @@ thumbnail: thumbs/thumb-1.jpg
 alt: image-alt
 
 ---
+
