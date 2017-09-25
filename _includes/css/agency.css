@@ -510,6 +510,13 @@ section h3.section-subheading {
     color: #bbb;
 }
 
+.team-member.santi img:hover {
+    content: url('{{ site.baseurl }}/img/team/santi-2.jpg');
+}
+.team-member.titan img:hover {
+    content: url('{{ site.baseurl }}/img/team/titan-2.jpg');
+}
+
 .team-member img {
     margin: 0 auto;
 }
