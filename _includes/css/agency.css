@@ -492,9 +492,16 @@ section h3.section-subheading {
 }
 
 #language-chooser {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #{{ site.data.template.color.secondary }};
+}
+
+@media (min-width: 768px) {
+    #language-chooser {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
 
 .team-member {
