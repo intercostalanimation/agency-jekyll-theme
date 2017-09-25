@@ -253,7 +253,6 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     .navbar-default {
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -539,6 +538,9 @@ section h3.section-subheading {
 @media screen and (max-width: 768px) { 
   .team-member img {
     width: 50%;
+  }
+  .team-member p {
+    text-align: center;
   }
 }
 
@@ -1014,4 +1016,8 @@ body {
     .grid-item--width2 {
         width: 40%;
     }
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 400px;
 }
