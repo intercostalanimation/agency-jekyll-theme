@@ -12,6 +12,8 @@ alt: image-alt
 images:
   - url: disenio-personajes/character-1.jpg
   - url: disenio-personajes/character-2.jpg
+    vertical: true
   - url: disenio-personajes/character-3.jpg
+    vertical: true
 
 ---

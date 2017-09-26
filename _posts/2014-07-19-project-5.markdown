@@ -11,6 +11,7 @@ alt: image-alt
 
 images:
   - url: musicos/rada/rada-1.jpg
+    vertical: true
   - url: musicos/rada/rada-2.jpg
 
 ---

@@ -11,6 +11,7 @@ alt: image-alt
 
 images:
   - url: musicos/jaime-roos/jaime-4.jpg
+    vertical: true
   - url: musicos/jaime-roos/jaime-2.jpg
   - url: musicos/jaime-roos/jaime-3.jpg
   - url: musicos/jaime-roos/jaime-1.jpg

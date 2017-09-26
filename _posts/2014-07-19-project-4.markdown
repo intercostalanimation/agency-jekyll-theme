@@ -11,6 +11,7 @@ alt: image-alt
 
 images:
   - url: musicos/pedro/pedro-3.jpg
+    vertical: true
   - url: musicos/pedro/pedro-2.jpg
   - url: musicos/pedro/pedro-1.jpg
 

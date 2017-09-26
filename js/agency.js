@@ -45,6 +45,11 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+function setPortfolioImageContainersHeight()
+{
+    var wh = $(window).height() - 50;
+    $('.portfolio-image-container.vertical').attr('style', 'height:' + wh + 'px;');
+}
 
 jQuery(document).ready(function($){
     var contentSections = $('.cd-section'),
@@ -98,5 +103,8 @@ jQuery(document).ready(function($){
     grid.imagesLoaded().progress( function() {
         grid.isotope('layout');
     });
+
+    setPortfolioImageContainersHeight();
+    $(window).bind('resize', function() { setPortfolioImageContainersHeight(); });
 
 });

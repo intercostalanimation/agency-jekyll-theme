@@ -123,6 +123,15 @@ fieldset[disabled] .btn-primary.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+.carousel-inner>.item>img.portfolio-image {
+    max-height: 100%;
+    width: auto;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.font-primary }};
