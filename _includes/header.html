@@ -11,7 +11,7 @@
                 </button>
             </div>
             <a class="navbar-brand page-scroll" href="#page-top">
-              <img src="{{site.full_url}}img/logos/logo-120x120.png">
+              <img src="{{site.baseurl}}img/logos/logo-120x120.png">
             </a>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -35,12 +35,12 @@
 
                     {% if page.locale == "en" %}
                         <li>
-                            <a class="page-scroll" id="language-chooser" title="Cambia a idioma español" href="{{site.full_url}}es">{{ t.header_es_lang }}</a>
+                            <a class="page-scroll" id="language-chooser" title="Cambia a idioma español" href="{{site.baseurl}}es">{{ t.header_es_lang }}</a>
                         </li>
                     {% endif %}
                     {% if page.locale == "es" %}
                         <li>
-                            <a class="page-scroll" id="language-chooser" title="Switch to English" href="{{site.full_url}}">{{ t.header_en_lang }}</a>
+                            <a class="page-scroll" id="language-chooser" title="Switch to English" href="{{site.baseurl}}">{{ t.header_en_lang }}</a>
                         </li>
                     {% endif %}
                 </ul>
