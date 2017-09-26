@@ -640,6 +640,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #2b2828;
 }
 
 footer span.copyright {
@@ -654,7 +655,12 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    color: #{{ site.data.template.color.font-primary }};
     line-height: 40px;
+}
+
+footer ul.quicklinks a {
+    color: #{{ site.data.template.color.font-primary }};
 }
 
 ul.social-buttons {
@@ -665,12 +671,10 @@ ul.social-buttons li a {
     display: block;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
     outline: 0;
     color: #{{ site.data.template.color.font-primary }};
-    background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
