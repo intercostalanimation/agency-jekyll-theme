@@ -1,5 +1,5 @@
 url: http://norman.uy
-baseurl: /norman-website/
+baseurl:
 
 full_url:  http://localhost:4000/norman/
 
