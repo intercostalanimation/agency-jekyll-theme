@@ -23,7 +23,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Montevideo, Uruguay.
+  - line: Montevideo, Uruguay
 
 # Build settings
 markdown: kramdown
