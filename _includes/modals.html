@@ -21,7 +21,7 @@
               <div class="carousel-inner" role="listbox">
                 {% for img in post.images %}
                   <div class="item portfolio-image-container {% if forloop.first == true %}active{% endif %} {% if img.vertical == true %}vertical{% endif %} ">
-                    <img src="{{site.baseurl}}img/portfolio/{{ img.url }}" class="img-responsive img-centered portfolio-image">
+                    <img src="/img/portfolio/{{ img.url }}" class="img-responsive img-centered portfolio-image">
                   </div>
                 {% endfor %}
 

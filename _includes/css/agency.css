@@ -305,7 +305,7 @@ header {
 }
 
 #header-section {
-    background-image: url('{{ site.baseurl }}/img/portfolio/intro-background.jpeg');
+    background-image: url('/img/portfolio/intro-background.jpeg');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -520,10 +520,10 @@ section h3.section-subheading {
 }
 
 .team-member.santi img:hover {
-    content: url('{{ site.baseurl }}/img/team/santi-2.jpg');
+    content: url('/img/team/santi-2.jpg');
 }
 .team-member.titan img:hover {
-    content: url('{{ site.baseurl }}/img/team/titan-2.jpg');
+    content: url('/img/team/titan-2.jpg');
 }
 
 .team-member img {
